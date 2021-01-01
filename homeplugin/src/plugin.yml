@@ -1,0 +1,17 @@
+name: HomePlugin
+main: plugin.HomePlugin
+version: 0.1.4
+api-version: 1.13
+commands:
+  home:
+    description: Teleport to specified home location
+    usage: /home <name>
+  sethome:
+    description: Set the specified home entry to current position
+    usage: /sethome <name>
+  homelist:
+    description: Get list of home locations
+    usage: /homelist
+  delhome:
+    description: Delete the specified home entry
+    usage: /delhome <name>

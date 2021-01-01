@@ -1,0 +1,14 @@
+name: TPPlugin
+main: plugin.TPPlugin
+version: 0.1.0
+api-version: 1.13
+commands:
+  tpa:
+    description: Request a teleportation to a player of choice.
+    usage: /tpa <player>
+  tpaccept:
+    description: Accept an available teleport request from another player.
+    usage: /tpaccept
+  tpdeny:
+    description: Deny an available teleport request from another player.
+    usage: /tpdeny

@@ -1,0 +1,5 @@
+name: SleepPlugin
+main: plugin.SleepPlugin
+version: 1.2.0
+api-version: 1.14
+commands:
